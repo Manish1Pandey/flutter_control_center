@@ -1,0 +1,24 @@
+name: flutter_control_center_example
+description: "Demonstrates flutter_control_center: a Focus mode toggle and a Start timer button in Control Center."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.9.0 <4.0.0"
+  flutter: ">=3.35.0"
+
+dependencies:
+  flutter_control_center:
+    path: ../
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true

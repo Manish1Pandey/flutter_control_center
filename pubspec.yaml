@@ -1,0 +1,35 @@
+name: flutter_control_center
+description: "iOS 18 Control Center, Lock Screen and Action button controls for Flutter: shared App Group state, reloads, action stream and a Swift kit."
+version: 0.1.0
+homepage: https://github.com/Manish1Pandey/flutter_control_center
+repository: https://github.com/Manish1Pandey/flutter_control_center
+issue_tracker: https://github.com/Manish1Pandey/flutter_control_center/issues
+topics:
+  - ios
+  - widget
+  - control-center
+  - app-intents
+  - widgetkit
+
+environment:
+  sdk: ">=3.9.0 <4.0.0"
+  flutter: ">=3.35.0"
+
+dependencies:
+  args: ^2.5.0
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+  flutter_test:
+    sdk: flutter
+
+executables:
+  setup:
+
+flutter:
+  plugin:
+    platforms:
+      ios:
+        pluginClass: FlutterControlCenterPlugin
