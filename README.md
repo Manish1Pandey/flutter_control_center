@@ -192,3 +192,9 @@ Other deep links pass through to your app's own handling untouched.
 `example/` is a Flutter app with a real Widget Extension target (`ControlCenterExtension`). It
 has a **Focus mode** toggle and a **Start timer** button. The button opens the app, which then
 starts a countdown from the payload. The example also shows every Dart API.
+
+## Links
+
+- **Documentation:** [flutterdev.in/packages/flutter_control_center](https://flutterdev.in/packages/flutter_control_center/)
+- **More Flutter packages:** [flutterdev.in](https://flutterdev.in)
+- **Learn data structures & algorithms in Dart:** [Algoistan](https://algoistan.flutterdev.in)
