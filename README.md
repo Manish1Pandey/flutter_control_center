@@ -3,6 +3,10 @@
 Add iOS 18 **controls** to your Flutter app. Controls are the small buttons and toggles users
 place in **Control Center**, on the **Lock Screen** and on the **Action button**.
 
+![The example's Focus mode control is turned on in Control Center and the Flutter app shows it on; the Start timer control then starts a 25-minute countdown in the app](screenshots/demo.gif)
+
+*The example app on the iOS 27 simulator: flipping the Focus mode control in Control Center writes the App Group state and the app shows it as written by the control. Pressing the Start timer control sends an action that starts the countdown in the app.*
+
 iOS 18 builds controls with WidgetKit's `ControlWidget` (`ControlWidgetButton`,
 `ControlWidgetToggle`) and backs them with App Intents. Before this package, Flutter had no way to
 use them, because `home_widget` only covers Home Screen and Lock Screen widgets. Flutter apps

@@ -1,6 +1,6 @@
 name: flutter_control_center
 description: "iOS 18 Control Center, Lock Screen and Action button controls for Flutter: shared App Group state, reloads, action stream and a Swift kit."
-version: 0.1.1
+version: 0.1.2
 homepage: https://flutterdev.in/packages/flutter_control_center/
 repository: https://github.com/Manish1Pandey/flutter_control_center
 issue_tracker: https://github.com/Manish1Pandey/flutter_control_center/issues
@@ -10,6 +10,10 @@ topics:
   - control-center
   - app-intents
   - widgetkit
+
+screenshots:
+  - description: "Animated: the Focus mode control flipped in Control Center updates the Flutter app, and the Start timer control starts a countdown in it."
+    path: screenshots/demo.gif
 
 environment:
   sdk: ">=3.9.0 <4.0.0"
