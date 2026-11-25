@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter_control_center/flutter_control_center.dart';
+// ignore: deprecated_member_use
 import 'package:flutter/material.dart';
 
 /// App Group enabled for Runner and ControlCenterExtension in Xcode.
